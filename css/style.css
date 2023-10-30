@@ -26,6 +26,8 @@ body{
     width: 500px;
     height: 500px;
    
+    
+   
 }
 
 .container-move{
@@ -35,20 +37,32 @@ body{
     align-items: center;
 }
 
-header {
+header{
     position:sticky;
     top: 0;
+   
+    z-index: 1;
     
 }
 
-.container{
+nav{
+    position: fixed;
+}
+
+.containerr{
     height: 1080px;
 }
 
 section{
     display: block;
+    
 
 }
+
+
+
+
+
 
 
 
@@ -63,6 +77,20 @@ section{
     color: white;
 }
 
+.hero{
+    transform: translateY(5rem);
+}
+.container-about{
+    display: flex;
+    justify-content: center;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    height: -5vh;
+    align-items: center;
+}
 
 
 
