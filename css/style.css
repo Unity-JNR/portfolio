@@ -31,8 +31,10 @@ body{
     align-items: center;
 }
 
-header nav{
-    position: sticky;
+header {
+    position:sticky;
+    top: 0;
+    
 }
 
 .container{
@@ -51,6 +53,7 @@ header nav{
 #heading{
     color: white;
 }
+
 
 
 
