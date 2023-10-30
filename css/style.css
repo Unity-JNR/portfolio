@@ -5,10 +5,14 @@
     padding: 0;
 }
 
+html{
+    -webkit-text-size-adjust: 100%;
+}
 body{
-    background-image: url(https://i.postimg.cc/3RhGzBVf/black.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(https://i.postimg.cc/3RhGzBVf/black.jpg) fixed no-repeat ;
+    /* background-repeat: no-repeat;*/
+    background-size: cover; 
+   
     overflow-x: hidden;
 }
 
@@ -39,6 +43,11 @@ header {
 
 .container{
     height: 1080px;
+}
+
+section{
+    display: block;
+
 }
 
 
