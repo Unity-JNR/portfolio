@@ -35,6 +35,24 @@ header nav{
     position: sticky;
 }
 
+.container{
+    height: 1080px;
+}
+
 
 
 /* end of landing page css */
+
+/* About css */
+
+#heading::first-letter{
+    color: yellow;
+}
+#heading{
+    color: white;
+}
+
+
+
+
+/* end of About css */
