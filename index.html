@@ -27,7 +27,7 @@
                     <a class="nav-link"  id="color-text" href="#resume/skils">Resume/Skills</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link "  id="color-text" href="#">Projects</a>
+                    <a class="nav-link "  id="color-text" href="#proj">Projects</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link "  id="color-text" href="#">Testimonials</a>
@@ -41,41 +41,41 @@
           </nav>
     </header>
 
-    <section id="Home">
+    <section id="Home" class="move">
         <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-        <div id="carousel-c" class="carousel slide">
+        <div id="carousel-c" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carousel-c" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carousel-c" data-bs-slide-to="1" aria-label="Slide 2"></button>
 
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active" data-bs-interval="5000">
                 <div class="container-move">
-                <!-- <img src="https://i.postimg.cc/BtWfCMmN/myself.jpg"  id="image" alt="myself"> -->
+                <img src="https://i.postimg.cc/7YfBPJS9/IMG-20221207-WA0009-1.jpg"  id="image" alt="myself">
                 <div class="carousel-caption d-none d-md-block">
-                  <p>Unity Demas</p>
+                  <p class="text-black fw-bold"> Unity Demas</p>
                 </div>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="6000">
                 <div class="container-move">
-                <!-- <img src="https://i.postimg.cc/BtWfCMmN/myself.jpg" id="image"  alt="myself"> -->
+                <img src="https://i.postimg.cc/7YfBPJS9/IMG-20221207-WA0009-1.jpg" id="image"  alt="myself">
                 <div class="carousel-caption d-none d-md-block">
-                  <p>I am a web developer</p>
+                  <p class="text-black fw-bold">I am a web developer</p>
                 </div>
                 
                 </div>
               </div>
         
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carousel-c" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-c" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
-            </button>
+            </button> -->
           </div>
      </div>
     </div>
@@ -99,7 +99,7 @@
         <div class="row">
             <div class="col-6">
                 <div class="image">
-                    <!-- <img src="https://i.postimg.cc/BtWfCMmN/myself.jpg" id="images" alt="image"> -->
+                    <img src="https://i.postimg.cc/7YfBPJS9/IMG-20221207-WA0009-1.jpg" id="images" alt="image">
                 </div>
             </div>
             <div class="col-6">
@@ -122,12 +122,18 @@
 
  <section id="pad-mar" >
     <div class="container  row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-    <div class="container" id="resume/skils">
+    <div class="container">
         <div class="" id="textalign">
-            <div class="">
+            <div class="" id="resume/skils">
+              <li>kkk</li>
+              <li>kkk</li>
+              <li>kkk</li>
+              <li>kkk</li>
+              <li>kkk</li>
+              <li>kkk</li>
                 <h2 id="subheading" class="text-white">Resume</h2>
-                <!-- Your resume content goes here -->
-                <p class="text-white">
+                
+                <p class="text-white" >
                 I graduated high school at Protea heights Academy with a bachlers pass
                 </p>
                 <p class="text-white">
@@ -135,8 +141,14 @@
                 </p>
             </div>
             <div class="">
+              <li>kkk</li>
+              <li>kkk</li>
+              <li>kkk</li>
+              <li>kkk</li>
+              <li>kkk</li>
+              <li>kkk</li>
                 <h2 id="subheading" class="text-white">Skills</h2>
-                <!-- Your skills content goes here -->
+                
                 <div>
                     <img src="https://i.postimg.cc/2y6RZ0f1/PHP-logo.png" id="icon" alt="">
                     <img src="https://i.postimg.cc/wBTSPW70/html.png" alt="" id="icon">
@@ -152,7 +164,7 @@
 
 
  <!-- projects html -->
-
+<section>
  <div class="project">
     <h1 class="text-white" id="proj">
         Projects
@@ -160,9 +172,9 @@
 </div>
 
 
-  <div class="container">
+  <div class="container" id="moveback">
     <div class="row">
-        <div class="col-6">
+        <div class="col-4">
             <div class = container-b>
     <div class = card>
       <div class = image>
@@ -171,13 +183,13 @@
       </div>
       <div class = content>
         <h3>To-Do list</h3>
-        <a href="#" class="btn btn-dark">Github</a>
-        <a href="https://todoproject-3rmoroykm-unity-jnr-a12c5e00.vercel.app/" target="_blank" class="btn btn-dark">Vercel</a>
+        <a href="#" class="btn btn-warning">Github</a>
+        <a href="https://todoproject-3rmoroykm-unity-jnr-a12c5e00.vercel.app/" target="_blank" class="btn btn-warning">Vercel</a>
       </div>
     </div>    
   </div>
         </div>
-        <div class="col-6">
+        <div class="col-4">
     
                 <div class = container-b>
         <div class = card>
@@ -187,13 +199,13 @@
           </div>
           <div class = content>
             <h3>Netflix</h3>
-            <a href="#" class="btn btn-dark">Github</a>
-            <a href="https://clone-netflix-ecru-eight.vercel.app/" class="btn btn-dark">Vercel</a>
+            <a href="#" class="btn btn-warning">Github</a>
+            <a href="https://clone-netflix-ecru-eight.vercel.app/" class="btn btn-warning">Vercel</a>
           </div>
         </div>    
       </div>
         </div>
-        <div class="col-6">
+        <div class="col-4">
     
             <div class = container-b>
     <div class = card>
@@ -209,7 +221,7 @@
     </div>    
   </div>
     </div>
-    <div class="col-6">
+    <div class="col-4">
     
         <div class = container-b>
 <div class = card>
@@ -225,9 +237,25 @@
 </div>    
 </div>
 </div>
+<div class="col-4">
+    
+  <div class = container-b>
+<div class = card>
+<div class = image>
+<img src="https://i.postimg.cc/wTX1m05j/Screenshot-2023-10-31-090850.png" style="width: 10rem;" alt="calculator">
+
+</div>
+<div class = content>
+<h3>Football Quiz</h3>
+<a href="#" class="btn btn-warning">Github</a>
+<a href="https://jnr-football-quiz.vercel.app/" class="btn btn-warning">Vercel</a>
+</div>
+</div>    
+</div>
+</div>
     </div>
   </div>
-
+</section>
 
 
   <!-- end of projects html -->

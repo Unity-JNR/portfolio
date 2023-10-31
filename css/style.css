@@ -31,6 +31,7 @@ body{
 }
 
 .container-move{
+    margin-top: 10rem;
     justify-content: center;
     display: flex;
     height: -1vh;
@@ -38,16 +39,14 @@ body{
 }
 
 header{
-    position:sticky;
+    position:fixed; 
     top: 0;
    
     z-index: 1;
     
 }
 
-nav{
-    position: fixed;
-}
+
 
 .containerr{
     height: 1080px;
@@ -59,6 +58,9 @@ section{
 
 }
 
+.move{
+    height: 100vh;
+}
 
 
 
@@ -96,21 +98,9 @@ section{
     height: 350px;
 }
 
-/* project css */
 
-.project{
-    display: flex;
-    justify-content: center;
-}
 
-#proj::first-letter{
-color:yellow ;
-}
-#des{
-    color: white;
-}
 
-/* end of project css */
 
 
 
@@ -125,6 +115,8 @@ color: yellow;
 #pad-mar{
     padding: 5px;
     margin: 5px;
+    /* margin-top: 20rem; */
+   
 }
  
 #textalign{
@@ -139,8 +131,25 @@ color: yellow;
     height: 100px;
 
 }
+li{
+ list-style: none;
+    color: transparent;
+}
+/* end of resume/skill css */
 
+/* project css */
 
+.project{
+    display: flex;
+    justify-content: center;
+}
+
+#proj::first-letter{
+color:yellow ;
+}
+#des{
+    color: white;
+}
   
   .container-b {
     position : relative;
@@ -208,4 +217,7 @@ color: yellow;
     
   }
 
-/* end of resume/skill css */
+  #moveback{
+    z-index: 1;
+  }
+/* end of project css */
