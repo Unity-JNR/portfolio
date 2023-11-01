@@ -501,4 +501,19 @@ p {
 }
 
 
-/* testimonial */
+
+/*  end testimonial */
+
+/* contact  */
+
+#contact::first-letter {
+  color: yellow ;
+  text-transform: capitalize;
+  
+}
+
+.con{
+  display: flex;
+  justify-content: center;
+}
+/* end of contact */
