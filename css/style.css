@@ -5,14 +5,12 @@
     padding: 0;
 }
 
-html{
-    -webkit-text-size-adjust: 100%;
-}
+
 body{
     background: url(https://i.postimg.cc/3RhGzBVf/black.jpg) fixed no-repeat ;
     /* background-repeat: no-repeat;*/
     background-size: cover; 
-   
+  
     overflow-x: hidden;
 }
 
@@ -21,10 +19,14 @@ body{
     text-decoration: none;
     font-weight: bolder;
 }
+#pado{
+  padding-left:100px;
+}
 
-#image{
+#image-myself{
     width: 500px;
     height: 500px;
+    border-radius: 50%;
    
     
    
@@ -214,10 +216,15 @@ color: yellow;
     /* margin-top: 20rem; */
    
 }
+
+#subheading{
+  text-align: center;
+  margin-left: 40%;
+}
  
 #textalign{
     display: flex;
-    /* margin-left: 30%; */
+    margin-left: 8%;
     justify-content: space-around;
     
 }
@@ -230,6 +237,94 @@ color: yellow;
 li{
  list-style: none;
     color: transparent;
+}
+
+
+.cardd {
+  /* position: absolute; */
+  margin-left: 8.5rem;
+  padding: .1rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 360px;
+  height: 300px;
+  background: #000;
+}
+.cardd .image-s {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.cardd .image-s img {
+  width: 100%;
+  transition: .5s;
+}
+.cardd:hover .image-s img {
+  opacity: .5;
+  transform: translateX(30%);/*100%*/
+}
+.cardd .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;/*100%*/
+  height: 100%;
+  background: #ffc107;
+  transition: .5s;
+  transform-origin: left;
+  transform: perspective(2000px) rotateY(-90deg);
+}
+.cardd:hover .details {
+  transform: perspective(2000px) rotateY(0deg);
+}
+.cardd .details .center {
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.cardd .details .center h1 {
+  margin: 0;
+  padding: 0;
+  color: #ffef09;
+  line-height: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.cardd .details .center h1 span {
+  font-size: 14px;
+  color: #262626;
+}
+.cardd .details .center p {
+  margin: 10px 0;
+  padding: 0;
+  color: #262626;
+}
+.card .details .center ul {
+  margin: 10px auto 0;
+  padding: 0;
+  display: table;
+}
+.cardd .details .center ul li {
+  list-style: none;
+  margin: 0 5px;
+  float: left;
+}
+.cardd .details .center ul li a {
+  display: block;
+  background: #262626;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  transform: .5s;
+}
+.cardd .details .center ul li a:hover {
+  background: #ff3636;
 }
 /* end of resume/skill css */
 
