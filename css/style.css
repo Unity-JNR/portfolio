@@ -432,15 +432,23 @@ color:yellow ;
 color: yellow;
 }
 
+#testwid{
+  width: 550px;
+}
+#tnanme{
+  color: rgb(241, 253, 5) ; 
+  margin-bottom: 1.5rem;
+}
+
 #name {
-	font-size: 5.25vmin;
+	font-size: 3.25vmin;
 	text-align: center;
 	color: white;
 }
 p {
 	font-size: max(10pt, 2.5vmin);
 	line-height: 1.4;
-	color: #0e390e;
+  color: rgb(241, 253, 5);
 	margin-bottom: 1.5rem;
 }
 
