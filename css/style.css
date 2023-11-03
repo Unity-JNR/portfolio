@@ -252,6 +252,7 @@ li{
 #resumecards{
   margin-left: 2.5rem;
 }
+
 .cardd {
   /* position: absolute; */
   margin-left: 8.5rem;
@@ -337,6 +338,16 @@ li{
 }
 .cardd .details .center ul li a:hover {
   background: #ff3636;
+}
+
+.skill{
+  display: flex;
+  margin-left: 15px;
+}
+.rate{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10%;
 }
 /* end of resume/skill css */
 
