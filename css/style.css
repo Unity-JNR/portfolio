@@ -813,10 +813,17 @@ button[type="submit"]{
 
 /* media Queries */
 
-@media (width < 999px) {
-  /* Your code */
-}
+@media screen and (max-width: 768px) {
+  /* CSS rules for small screens */
+  #land {
+    display: none;
+  }
 
+  .text-3D {
+    font-size: 2em;
+  }
+}
+/* end of media Queries */
 
 
 /* end of media Queries */
