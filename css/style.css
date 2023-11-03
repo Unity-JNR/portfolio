@@ -1,8 +1,10 @@
 /* landing page css */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Roboto-serif;
 }
 
 #land{
