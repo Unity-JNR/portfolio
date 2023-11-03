@@ -811,7 +811,15 @@ button[type="submit"]{
 }
 /* end of contact */
 
+/* media Queries */
 
+@media (width < 999px) {
+  /* Your code */
+}
+
+
+
+/* end of media Queries */
 
   
 
