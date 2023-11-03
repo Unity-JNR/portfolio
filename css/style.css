@@ -249,7 +249,9 @@ li{
     color: transparent;
 }
 
-
+#resumecards{
+  margin-left: 2.5rem;
+}
 .cardd {
   /* position: absolute; */
   margin-left: 8.5rem;
