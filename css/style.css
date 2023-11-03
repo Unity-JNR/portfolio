@@ -542,6 +542,17 @@ p {
 	transition: .3s ease-in-out;
 	/* border: 1px solid green; */
 }
+.image-content2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60vmin;
+	height: 100%;
+	background-image: url("https://i.postimg.cc/1tCbGwdR/Matthew-1.png");
+	background-size: cover;
+	transition: .3s ease-in-out;
+	/* border: 1px solid green; */
+}
 .inset {
 	max-width: 50%;
 	margin: 0.25em 1em 1em 0;
@@ -776,3 +787,5 @@ button[type="submit"]{
   height: 2rem;
 }
 /* end of contact */
+
+
