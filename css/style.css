@@ -378,10 +378,22 @@ color:yellow ;
     height : 320px;    
   }
   
+  #calc{
+    height: 180px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2) !important;
+    z-index : 1;
+    margin-left: 50px;
+    position: relative;
+    
+    top : -20%;
+  
+  
+ 
+  }
   
   .container-b .card .image {
     position : relative;
-    width : 260px;
+    width : 15rem;
     height : 260px;
     
     top : -40%;
